@@ -20,6 +20,7 @@ export default class TodoHeader extends Component {
     if (this.props.newTodoInput) {
       this.props.addNewTodo();
     }
+    e.preventDefault();
   }
 
   render() {

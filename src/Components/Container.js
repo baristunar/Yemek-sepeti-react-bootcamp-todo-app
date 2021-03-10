@@ -9,6 +9,7 @@ export default class Container extends Component {
       todos: [],
       newTodo: "",
     };
+
     this.addNewTodo = this.addNewTodo.bind(this);
     this.setNewTodo = this.setNewTodo.bind(this);
     this.deleteTodo = this.deleteTodo.bind(this);
